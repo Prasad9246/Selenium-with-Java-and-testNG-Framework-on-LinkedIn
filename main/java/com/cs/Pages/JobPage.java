@@ -82,13 +82,13 @@ public class JobPage {
 	}
 	
 	private void typeCompanyName(String companyName) {
-		waitExplicitly(BTN_COMPANY);
+		//waitExplicitly(BTN_COMPANY);
 		clickElement(BTN_COMPANY);
-		waitExplicitly(TXT_COMPANYNAME);
+		//waitExplicitly(TXT_COMPANYNAME);
 		getWebElement(TXT_COMPANYNAME).sendKeys(companyName);
-		waitExplicitly(SELECTCOMPANY);
+		//waitExplicitly(SELECTCOMPANY);
 		clickElement(SELECTCOMPANY);
-		waitExplicitly(BTNCOMPANYSHOW);
+		//waitExplicitly(BTNCOMPANYSHOW);
 		clickElement(BTNCOMPANYSHOW);
 	}
 	
